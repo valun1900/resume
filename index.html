@@ -7,40 +7,54 @@
     <meta name="description" content="резюме начинающего веб разработчика">
     <meta name="keywords" content="резюме, работа, ищу работу">
     <title>RESUME OLEG</title>
+  <link rel="stylesheet" href="01_sel.css">
+
 </head>
 
 <body>
+  <div class="container">
+ <div class="info">
 
-<h1>Олег Киреев</h1>
+  <img src="foto.jpg" alt="Oleg Kireev" class="avatar">
 
-<img src="foto.jpg" alt="мое фото">
+   <div class="info-text">
 
+    <h1>Олег Киреев</h1>
+  
+  <h4>Список социальных сетей:</h4>
 <br>
+  <ul class="sety"> 
+     <li><em>Мой телеграмм:</em> <a href="https://t.me/valun1900" target="_blank">Telegram</a></li>
+     <li><em>Мой фейсбук:</em> <a href="https://www.facebook.com/oleg.kireev.94/" target="_blank">facebook</a></li>
+     <li><em>Моя почта:</em> <strong>olegkireev1@gmail.com</strong></li>
+    </ul>
+   </div>
+ </div> 
 
-<ul> 
-  <li><em>Мой телеграмм:</em> <a href="https://t.me/valun1900" target="_blank">Telegram</a></li>
-  <li><em>Мой фейсбук:</em> <a href="https://www.facebook.com/oleg.kireev.94/" target="_blank">facebook</a></li>
-  <li><em>Моя почта:</em> <strong>olegkireev1@gmail.com</strong></li>
-</ul>
-  
-<p><em><strong>Образование:</strong></em></p>
+<div class="card bg-yellow">
+ <p><em><strong>Образование:</strong></em></p>
 
-<ul type="square"> 
-  <li>1994-1999 гг. <em>Гродненский государственные университет,</em>инженерный факультет, специальность инженер приборостроения.</li> 
-  <li>2000-2005 гг. <em>Белорусская Академия искусств,</em> театральный факультет, специальность режиссер драмы.</li>  
-  <li>2006-2007 гг. <em>Белорусская Академия управления,</em> факультет государственного и местного управления, специалист в области государственного управления (диплом с отличием).</li> 
-</ul>
-  
-<p> <em><strong>Языки и другие навыки:</strong></em></p>
-<ul type="square">
-  <li>Русский (Native), Польский (А2)</li>
-  <li>Продвинутый пользователь: macOS, Windows, Final Cut, Adobe Premiere Pro, Photoshop, Microsoft Office, Teams, Miro, Discord</li>
-  <li>Навыки системного администратора (не включая БД)</li>
-  <li>Водительское удостоверение категории В (есть личный автомобиль)</li>
-</ul>
+  <ul type="square" class="list"> 
+   <li>1994-1999 гг. <em>Гродненский государственные университет,</em>инженерный факультет, специальность инженер приборостроения.</li> 
+   <li>2000-2005 гг. <em>Белорусска я Академия искусств,</em> театральный факультет, специальность режиссер драмы.</li>  
+   <li>2006-2007 гг. <em>Белорусская Академия управления,</em> факультет государственного и местного управления, специалист в области государственного управления (диплом с отличием).</li> 
+  </ul>
+</div>
 
+<div class="card bg-green">
+ <p> <em><strong>Языки и другие навыки:</strong></em></p>
+   <ul type="square">
+    <li>Русский (Native), Польский (А2)</li>
+    <li>Продвинутый пользователь: macOS, Windows, Final Cut, Adobe Premiere Pro, Photoshop, Microsoft Office, Teams, Miro, Discord</li>
+    <li>Навыки системного администратора (не включая БД)</li>
+    <li>Водительское удостоверение категории В (есть личный автомобиль)</li>
+   </ul>
+</div>
+
+<div class="card">
 <p> <em><strong>Опыт работы:</strong></em></p>
-<table width="900">
+
+<table class="table" width="900">
   <thead>
    <tr>
     <th>Название</th>
@@ -68,13 +82,16 @@
   </tr>
  </tbody>
 </table>
+</div>
+<!-- 
 <ul type="square">
   <li>2003-2005 гг заместитель директора Театр студия киноактера, Национальная киностудия «Беларусьфильм».</li>
   <li>2005-по настоящее время режиссер-постановщик Театр студия киноактера, Национальная киностудия «Беларусьфильм». </li>
   <li>В 2003 г. совместно с партнером создал частный театр в котором являюсь соучредителем и режиссером. Нам удалось создать продукт на полном самообеспечении, который успешно существовал более 15 лет.</li>
   <li>Поставил более 10 спектаклей в театрах Беларуси. Лауреат специальной премии Президента Республики Беларусь в области  культуры и искусства, а так же дипломант разнообразных театральных конкурсов.</li>
-</ul>
+</ul> -->
 
+<div class="card bg-red">
 <p> <em><strong>Экспертиза:</strong></em></p>
 <ul type="square">
   <li>Полная организация производства тетральных проектов от разработки концептов до финальной стадии.</li>
@@ -82,7 +99,9 @@
   <li>Сильная экспертиза в визуальной коммуникации.</li>
   <li>Знание художественных стилей и направлений.</li>
 </ul>
+</div>
 
+<div class="card bg-aquamarine">
 <p> <em><strong>Личные качества:</strong></em></p>
 <ul type="square">
   <li>Способность организовать и управлять большими коллективами и процессами.</li>
@@ -96,33 +115,39 @@
   <li>Мотивирую на рост и самоотдачу исполнителей.</li>
   <li>Непрерывно занимаюсь саморазвитием.</li>
 </ul>
+</div>
 
+<div class="card bg-purpur">
 <p> <em><strong>Увлечения:</strong></em></p>
 <ul type="square">
   <li>Стараюсь, по возможности, смотреть все заметные фильмы, сериалы и прохождения игр.</li>
   <li>Интересуюсь актуальным искусством.</li>
 </ul>
+</div>
 
-<h3>Связаться со мной</h3>
- <form >
-  <div>
+
+ <form class="form">
+  <h3>Связаться со мной</h3>
+  <div class="form-row">
+   <div class="form-group">
     <label for="text">Ваше имя:</label>
     <input type="text" id="text" placeholder="Введите имя">
-  </div>
+   </div>
   
-  <div>
+   <div class="form-group">
     <label for="email">Ваш email:</label>
     <input type="email" id="email" placeholder="Введите email">
   </div>
-
-  <div>
+</div>
+  <div class="form-group">
     <label for="message">Ваше сообщение:</label>
-    <br>
     <textarea id="message" cols="25" rows="7" placeholder="Введите сообщение. . ."></textarea>
   </div>
-<input type="submit" value="Отправить">
+<input class="btn" type="submit" value="Отправить">
 </form>
 
 
+
+</div>
 </body>
 </html>
